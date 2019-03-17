@@ -1,0 +1,27 @@
+{
+  "name": "doorbell",
+  "description": "Notify Discord when the doorbell rings",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "ebith",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^7.0.0",
+    "onoff": "^4.1.1"
+  },
+  "xo": {
+    "space": true,
+    "prettier": true,
+    "rules": {
+      "capitalized-comments": 0
+    },
+    "env": [
+      "node"
+    ]
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}
