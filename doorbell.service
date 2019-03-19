@@ -1,7 +1,7 @@
 [Unit]
-Desription=Notify Discord when the doorbell rings
+Description=Notify Discord when the doorbell rings
 
 [Service]
 Type=simple
 Restart=always
-ExecStart=/usr/bin/node /home/pi/.ghq/github.com/ebith/doorbell/index.js
+ExecStart=/usr/local/bin/node /home/pi/.ghq/github.com/ebith/doorbell/index.js
